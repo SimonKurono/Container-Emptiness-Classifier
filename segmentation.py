@@ -257,7 +257,7 @@ def extract_segmentation_masks(
 
 def main():
     """Main execution function."""
-    test_images = ["soap.jpg", "multiple_products.png", "water_bottle1.jpg"]
+    test_images = ["assets/soap.jpg", "assets/multiple_products.png", "assets/water_bottle1.jpg"]
     
     for image_path in test_images:
         if os.path.exists(image_path):
