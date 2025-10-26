@@ -124,7 +124,7 @@ def main():
     
     try:
         detector.start_time = time.time()
-        result = detector.detect_products('multiple_products.png')
+        result = detector.detect_products('assets/multiple_products.png')
         
         print("\n" + "=" * 60)
         print(result)
